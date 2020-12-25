@@ -16,7 +16,6 @@ import ua.lviv.iot.bank.model.Deposit;
 public class DepositController {
 
   private Map<Integer, Deposit> deposits = new HashMap<>();
-
   private AtomicInteger idCounter = new AtomicInteger();
 
   @GetMapping
